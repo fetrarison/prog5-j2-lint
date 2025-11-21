@@ -8,7 +8,6 @@ public class Wallet {
     private double currentBalance = 0.0;
     private boolean isLostStatus = false;
 
-
     public void addVola(double amount) {
         if (amount <= 0) {
             throw new IllegalArgumentException("Amount must be positive");
